@@ -35,11 +35,12 @@
                         orientation: 'p',
                         unit: 'mm',
                         format: 'a4',
-                        // encryption: {
-                        //     userPassword: "user",
-                        //     ownerPassword: "saeed",
-                        //     userPermissions: ["print", "modify", "copy", "annot-forms"]
-                        // }
+						//to add password to a pdf file
+                        encryption: {
+                            userPassword: "user",
+                            ownerPassword: "saeed",
+                            userPermissions: ["print", "modify", "copy", "annot-forms"]
+                        }
                     });
                     // for(var i=0; i<=100;i++){
 
@@ -308,7 +309,7 @@
                         
 
 
-                        doc.save('auto_table_with_javascript_data');
+                        doc.save('auto_table_with_javascript_data_pdf');
 
 						
                     })
