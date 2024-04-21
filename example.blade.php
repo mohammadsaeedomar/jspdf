@@ -20,7 +20,7 @@
 
     <script>
 
-
+//this is a vue js vue 2
 
     let v = new Vue({
             el: '#app',
